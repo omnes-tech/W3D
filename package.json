@@ -1,0 +1,29 @@
+{
+  "name": "omnes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.5",
+    "@openzeppelin/hardhat-upgrades": "^1.22.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.6",
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@openzeppelin/contracts-upgradeable": "^4.9.3",
+    "dotenv": "^16.0.3",
+    "erc721a": "^4.2.3",
+    "erc721a-upgradeable": "^4.2.3",
+    "prompt-sync": "^4.2.0"
+  }
+}

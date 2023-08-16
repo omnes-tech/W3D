@@ -1,0 +1,98 @@
+{
+    "Proxies": {
+        "ERC721Art": {
+            "type": "Beacon",
+            "mumbai": {
+                "admin": "0x158D82C574551De80FEB731f1268C294030d2FAc",
+                "implementation": "0xaD2d84C98c4f721Bfa3fDe4706ac00DBacc09B48"
+            },
+            "goerli": {
+                "admin": "0x1ea06080ffac276C0CfdFcb92f0cfF1b4b4277Ad",
+                "implementation": "0x643323AcC91254A678ec879A67EdFDAE1d52FFF5"
+            },
+            "polygon": {
+                "admin": "0xe6269a2BfEf28559A599CC6c12F8861eFBc52C39",
+                "implementation": "0xA9b7785801FA8170731240869CdbaD8D1dff4EEe"
+            },
+            "sepolia": {
+                "admin": "0x0430C1d1F8A58b4010E519cE2e9a0C6d8e662c76",
+                "implementation": "0xF0f78787654B4b48863C96996bd5BF56edaEC3a5"
+            }
+        },
+        "ERC721CreatorsPRO": {
+            "type": "Beacon",
+            "mumbai": {
+                "admin": "0x4e3b5cb10a5f2027F1207415Ab1C89C3E7ff5642",
+                "implementation": "0xc3a043DFAA7115f19F065AB67df08B6613057Dd0"
+            },
+            "goerli": {
+                "admin": "0x264C670497FEE62fa796D51f15Eb09BD127b0C7d",
+                "implementation": "0x6f86BF3990BA24bCAb06De3da3c88243cd1849D3"
+            },
+            "polygon": {
+                "admin": "0xc8c22aE2F2017E32FcE6d60fE52558c677E14985",
+                "implementation": "0x17A9963F4D9c052c4FabEd9717Ecf44Ab0312357"
+            },
+            "sepolia": {
+                "admin": "0x34d22ee74981b945928463B9408AAE68F3d20Ca3",
+                "implementation": "0xd3c8B9Aca098A67bD34a6b18A83a20AEf265ac7c"
+            }
+        },
+        "Crowdfund": {
+            "type": "Beacon",
+            "mumbai": {
+                "admin": "0x2823f28093621E7bDD357C02cd60EB0AAa4D0076",
+                "implementation": "0x89958569cc4401C6c8990a12919Bd0723abBc98B"
+            },
+            "goerli": {
+                "admin": "0x34d22ee74981b945928463B9408AAE68F3d20Ca3",
+                "implementation": "0xd3c8B9Aca098A67bD34a6b18A83a20AEf265ac7c"
+            },
+            "sepolia": {
+                "admin": "0x1ea06080ffac276C0CfdFcb92f0cfF1b4b4277Ad",
+                "implementation": "0x4293A8200dA92D8adf69138F9d3f053837Ca71ec"
+            }
+        },
+        "Management": {
+            "type": "UUPS",
+            "mumbai": {
+                "proxy": "0x33e6961eDc112C0213B70c17ad01AD6Ae9E09A96",
+                "implementation": "0xbf4e20606d726037D5EA34D6B8C591e475739eE3"
+            },
+            "goerli": {
+                "proxy": "0x1f0084A3Bbd6408cE18d8240d39fbA68b0bfA22D",
+                "implementation": "0xBBE5fa87c4BD146a11E71b2e635144eca2f45C21"
+            },
+            "polygon": {
+                "proxy": "0x96b77c30f2283030aD9024824f92FEC104E9A770",
+                "implementation": "0xC9312FFa1ddB6102674d92209052F92dFe0d177c"
+            },
+            "sepolia": {
+                "proxy": "0x264C670497FEE62fa796D51f15Eb09BD127b0C7d",
+                "implementation": "0x41A0c75f20452AEB6B9cFCe51587810D4C4405CA"
+            }
+        },
+        "CRPReward": {
+            "type": "UUPS",
+            "sepolia": {
+                "proxy": "0x6781252f110931D1202053E61290CEb6bEA9A526",
+                "implementation": "0x1269a7b160263e08DF0D9f1F9E80DaCeb8067794"
+            }
+        },
+        "CRPStaking": {
+            "type": "Beacon",
+            "sepolia": {
+                "admin": "0x5CcfE5D4AFE1d69e55EbaeB0327346217D4c482E",
+                "implementation": "0x1F6AAb9A4402765f811fB1A67d8Fd86cBB26D0E0"
+            }
+        }
+    },
+    "Contracts": {
+        "MockUSDToken": {
+            "sepolia": "0x948439ec979D6734B8273410077c7b359c0D437e"
+        },
+        "MockMultiSig": {
+            "sepolia": "0xAaC42ebd8E521BaF6250B231170Bd68b86DdEf71"
+        }
+    }
+}
